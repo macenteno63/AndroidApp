@@ -26,10 +26,21 @@
         android:layout_height="wrap_content"
         android:text="@string/name"
         android:id="@+id/text"/>
+
+
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        ></androidx.recyclerview.widget.RecyclerView>
+        android:layout_gravity="center"
+        android:text="@string/login"
+        android:id="@+id/loginButton"
+        />
+
 
 </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
